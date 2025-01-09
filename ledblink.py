@@ -6,7 +6,7 @@ led = machine.Pin(2, machine.Pin.OUT)
 counter = 0
 
 while (counter < 5):
-    led.on()   "also we can use led.value(1)"
+    led.on()  
     time.sleep(0.5)
     led.off()
     time.sleep(0.5)

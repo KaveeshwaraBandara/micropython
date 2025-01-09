@@ -7,7 +7,7 @@ counter = 0
 
 def blink_LED_ntimes(num, t_on, t_off, msg):
     while (counter < num):
-    led.on()   "also we can use led.value(1)"
+    led.on()
     time.sleep(t_on)
     led.off()
     time.sleep(t_off)
